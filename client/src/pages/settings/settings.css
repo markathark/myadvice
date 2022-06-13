@@ -1,0 +1,134 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.settings-title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 7vh 0 5vh 0;
+  font-size: 2rem;
+  font-family: "Montserrat", open-sans;
+  font-weight: bold;
+}
+
+.settings-title__update {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.settings-title__delete {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settings-form {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.settings-profilepic {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px 0;
+}
+
+.settings-profilepic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.settings-form label {
+  margin: 20px 0 0 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 0.5px;
+}
+
+.settings-img {
+  border: 1px solid #0066ff;
+  background: none;
+  font-size: 0.8rem;
+  color: #0066ff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.settings-form input {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid rgb(199, 199, 199);
+  border-radius: 15px;
+  outline: none;
+  margin: 2vh 0;
+}
+
+.settings-submit {
+  background-color: #0066ff;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3vh 0 10vh 0;
+}
+
+.settings-disabled {
+  background-color: #d6d6d6;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3vh 0 10vh 0;
+}
+
+.settings-success {
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 1200px) {
+  .settings-wrapper {
+    width: 70%;
+  }
+  .settings-form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .settings-wrapper {
+    width: 90%;
+  }
+  .settings-form {
+    width: 90%;
+  }
+}

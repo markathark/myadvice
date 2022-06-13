@@ -1,0 +1,51 @@
+.popcat-wrapper {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 10vh 0;
+}
+
+.popcat-title {
+  margin: 7vh 0;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.popcat-cats {
+  margin: 2vh 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popcat-cats span {
+  padding: 5px 20px;
+  margin: 10px;
+  background-color: lightblue;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  border: 1px solid white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.popcat-cats span:hover {
+  background-color: white;
+  border: 1px solid gray;
+  transition: 1s;
+}
+
+@media (max-width: 1200px) {
+  .popcat-wrapper {
+    width: 70%;
+  }
+}
+@media (max-width: 992px) {
+  .popcat-wrapper {
+    width: 90%;
+  }
+}

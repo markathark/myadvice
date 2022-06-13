@@ -1,0 +1,33 @@
+.news-wrapper {
+  width: 100%;
+  padding: 10vh 0;
+  background-color: lightblue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  margin-bottom: 2vh;
+}
+
+.news-form input {
+  border: 0;
+  padding: 10px;
+  width: 20vw;
+}
+
+.news-form button {
+  padding: 10px;
+  border: 0;
+  background-color: #0066ff;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .news-form input {
+    width: 40vw;
+  }
+}

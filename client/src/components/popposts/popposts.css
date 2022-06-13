@@ -1,0 +1,26 @@
+.poppost-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.poppost-title {
+  margin: 3vh 0 5vh 0;
+  font-size: 2rem;
+  font-family: "Montserrat", open-sans;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1200px) {
+  .poppost-wrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .poppost-wrapper {
+    width: 90%;
+  }
+}
